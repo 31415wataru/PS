@@ -6,20 +6,18 @@
     <title></title>
   </head>
   <script type="text/javascript">
-      var typeone = 'Runaさんこんばんは';
-      var typetwo = 'Runaさんこんにちは'
     var today = new Date();
     var hour = today.getHours();
     if(hour>=0 && hour<=6){
-    document.write("<h1><center>Runaさんこんばんは！</center></h1>".fontcolor("#888888"));
+    document.write("<p><center>Runaさんこんばんは！</center></p>".fontsize(7).fontcolor("#888888"));
     document.write('<img src="img/toppagenight.png" width="100%">')
     }
     if(hour>=7 && hour<=18){
-    document.write("<h1><center>Runaさんこんにちは！</center></h1>".fontcolor("#FFD700"));
+    document.write("<h1><center>Runaさんこんにちは！</center></h1>".fontsize(7).fontcolor("#FFD700"));
     document.write('<img src="img/toppageafternoon.png" width="100%">')
   }
   if(hour>=19 && hour<=23){
-  document.write("<h1><center>Runaさんこんばんは！</center></h1>".fontcolor("#888888"));
+  document.write("<p><center>Runaさんこんばんは！</center></p>".fontsize(7).fontcolor("#888888"));
   document.write('<img src="img/toppagenight.png" width="100%">')
 }
   </script>
