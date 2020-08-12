@@ -118,6 +118,7 @@ h1{
 /*nextpage*/
 .profile-title{
 color: #888888;
+font-size: 80px;
 }
 .icon img{
   width: 50%;
@@ -126,6 +127,7 @@ color: #888888;
 .profile-text{
 color: #888888;
 margin-left: 5%;
+font-size: 40px;
 }
 .profile-text-level{
   clear: both;
@@ -141,6 +143,7 @@ margin-left: 5%;
   font-size: 80px;
 }
 .profile-change{
+  clear: both;
   border: solid;
   border-radius: 5px;
   margin-right: 40%;
@@ -148,5 +151,12 @@ margin-left: 5%;
   margin-left: 20px;
   color: #888888;
   font-size: 20px;
-
+}
+.profile-question{
+  font-size: 60px;
+  float: left;
+}
+.profile-answer{
+  font-size: 80px;
+  float: left;
 }
