@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" />
+    <title></title>
+  </head>
+  <script type="text/javascript">
+    var today = new Date();
+    var hour = today.getHours();
+    if(hour>=0 && hour<=8){
+    document.write("<p><center>申し訳ございません。この時間の問い合わせは対応していません</center></p>".fontsize(7).fontcolor("#888888"));
+    document.write('<img src="img/toppagenight.png" width="100%">')
+    }
+    if(hour>=9 && hour<=17){
+    document.write("<h1><center>メール：impact.rits@gmail.com</center></h1>".fontsize(7).fontcolor("#FFD700"));
+    document.write('<img src="img/toppageafternoon.png" width="100%">')
+  }
+  if(hour>=18 && hour<=23){
+  document.write("<p><center>申し訳ございません。この時間の問い合わせは対応していません</center></p>".fontsize(7).fontcolor("#888888"));
+  document.write('<img src="img/toppagenight.png" width="100%">')
+  }
+  </script>
+  <body link="white" vlink="white" alink="white">
+    <div class="contact">
+    <a href="https://impact-rits.github.io/genie.github.io/">開発者のページ</a>
+    </div>
+    <div class="homeber">
+      <center>
+        <div class="logo-home">
+          <a href="ps_ritsumei.html"><img src="img/home.png"></a>
+        </div>
+        <div class="logo-log">
+          <a href="log.html"><img src="img/log.png"></a>
+        </div>
+         <div class="logo-profile">
+          <a href="profile.html"><img src="img/profile.png"></a>
+        </div>
+        <div class="logo-contact">
+          <a href="contact.html"><img src="img/contact.png"></a>
+      </center>
+    </div>
+  </body>
+</html>

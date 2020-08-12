@@ -165,3 +165,16 @@ font-size: 40px;
   font-size: 60px;
   color: #888888;
 }
+.contact{
+  margin-bottom: 100px;
+  border: solid;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 30px;
+  background-color: #FFA500;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  font-size: 60px;
+}
