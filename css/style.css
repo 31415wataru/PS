@@ -43,12 +43,21 @@ h1{
 }
 /*nextpage*/
 .log-title{
+
   margin-left: 5%;
   color: #888888;
 }
 .log-delete{
+  font-size: 50px;
   text-align: right;
   margin-right: 10%;
+}
+.rirekititle{
+  font-size: 100px
+}
+.rirekidetail{
+  font-size: 70px;
+  margin-bottom: 100px;
 }
 /*nextpage*/
 .search-title{
