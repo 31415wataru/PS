@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" />
+    <title></title>
+  </head>
+  <script type="text/javascript">
+      var typeone = 'Runaさんこんばんは';
+      var typetwo = 'Runaさんこんにちは'
+    var today = new Date();
+    var hour = today.getHours();
+    if(hour>=0 && hour<=6){
+    document.write("<h1><center>Runaさんこんばんは！</center></h1>".fontcolor("#888888"));
+    document.write('<img src="img/toppagenight.png" width="100%">')
+    }
+    if(hour>=7 && hour<=18){
+    document.write("<h1><center>Runaさんこんにちは！</center></h1>".fontcolor("#FFD700"));
+    document.write('<img src="img/toppageafternoon.png" width="100%">')
+  }
+  if(hour>=19 && hour<=23){
+  document.write("<h1><center>Runaさんこんばんは！</center></h1>".fontcolor("#888888"));
+  document.write('<img src="img/toppagenight.png" width="100%">')
+}
+  </script>
+  <body>
+    <div class="search">
+      <center>
+      <a href="search.html"><img src="img/searchtext.png" alt="虫眼鏡"></a>
+    <div class="box">
+      </div>
+      <p>例　ケーキ屋　レストラン　大津</p>
+      </center>
+    </div>
+  <div class="homeber">
+    <center>
+    <div class="logo-home">
+    <img src="img/home.png">
+    </div>
+    <div class="logo-log">
+    <a href="log.html"><img src="img/log.png"></a>
+    </div>
+    <div class="logo-profile">
+    <a href="profile.html"><img src="img/profile.png"></a>
+    </div>
+    <div class="logo-contact">
+    <img src="img/contact.png">
+    </center>
+    </div>
+  </body>
+  </html>

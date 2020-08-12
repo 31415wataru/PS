@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <script type="text/javascript">
+     function login() {
+        var UserInput = prompt("パスワードを入力してください:","");
+        location.href = UserInput + ".html";<!--利用者が入力したパスワードに拡張子を付ける--!>
+     }
+  </script>
+  <body>
+  <center>
+    <div class="logo-login">
+    <img src="img/P.S.png">
+    </div>
+    <h1><font color="FFD700">Universal food Allery Mark</font></h1>
+  <input type="button" value="ログイン" onclick="login();">
+  </center>
+  </body>
+</html>
