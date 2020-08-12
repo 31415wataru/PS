@@ -147,7 +147,7 @@ font-size: 40px;
   border: solid;
   border-radius: 5px;
   margin-right: 60%;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   margin-left: 20px;
   color: #888888;
   font-size: 40px;
@@ -159,4 +159,9 @@ font-size: 40px;
 .profile-answer{
   font-size: 80px;
   float: left;
+}
+/*nextpage*/
+.notfound{
+  font-size: 60px;
+  color: #888888;
 }
