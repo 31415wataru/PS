@@ -67,9 +67,10 @@ h1{
   float: left;
 }
 .search-result{
+  color: #888888;
   padding-top: 10px;
-  font-size: 30px;
   clear: both;
+  font-size: 80px;
 }
 .mapimage img{
   width: 90%;
