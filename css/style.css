@@ -78,7 +78,7 @@ h1{
   border-radius:10px;
 }
 .result-title{
-  font-size: 60px;
+  font-size: 100px;
   margin-top: 5px;
   padding-left: 10px;
   padding-right: 30%;
@@ -100,7 +100,7 @@ h1{
   font-size: 80px;
 }
 .detail{
-  font-size: 20px;
+  font-size: 60px;
   margin-left: 5%;
   margin-bottom: 300px;
   color: #888888;
