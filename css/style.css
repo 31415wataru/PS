@@ -4,7 +4,7 @@
 .login{
   font-size: 80px;
 }
-/*nextpage*/
+/*---------------------------------------------------------------------nextpage*/
 .search img{
   width: 50%;
 }
@@ -44,7 +44,7 @@ h1{
   width: 15%;
   float: left;
 }
-/*nextpage*/
+/*--------------------------------------------------------------------nextpage*/
 .log-title{
 
   margin-left: 5%;
@@ -62,7 +62,7 @@ h1{
   font-size: 70px;
   margin-bottom: 100px;
 }
-/*nextpage*/
+/*--------------------------------------------------------------------nextpage*/
 .search-title{
   font-size: 30px;
   border: solid 5px;
@@ -115,10 +115,23 @@ h1{
 .detail{
   font-size: 60px;
   margin-left: 5%;
-  margin-bottom: 300px;
   color: #888888;
 }
-/*nextpage*/
+.shop-link{
+  clear: both;
+  border: solid;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 30px;
+  background-color: #77F9C3;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  font-size: 80px;
+  margin-bottom: 300px;
+}
+/*--------------------------------------------------------------------nextpage*/
 .profile-title{
 color: #888888;
 font-size: 80px;
@@ -163,7 +176,7 @@ font-size: 40px;
   font-size: 80px;
   float: left;
 }
-/*nextpage*/
+/*--------------------------------------------------------------------nextpage*/
 .notfound{
   font-size: 60px;
   color: #888888;
