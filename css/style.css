@@ -195,3 +195,30 @@ font-size: 40px;
   color: white;
   font-size: 60px;
 }
+/*--------------------------------------------------------------------nextpage*/
+.contact-doctor{
+  clear: both;
+  border: solid;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 30px;
+  background-color: #32EEFF;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  font-size: 80px;
+}
+.contact-119{
+  clear: both;
+  border: solid;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 30px;
+  background-color: red;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  font-size: 80px;
+}
